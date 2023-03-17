@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Meziani - Acceuil</title>
+</head>
+
+<body>
+
+    <div id="page">
+
+        <header>
+            <a href="index.html"><img src="img/logo.png" alt="Logo Meziani"></a>
+            <h1>Meziani Incorporated.</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Acceuil</li>
+                </a>
+                <a href="photos.html">
+                    <li>Galerie Photos</li>
+                </a>
+                <a class="active" href="commentaires.html">
+                    <li>Commentaires</li>
+                </a>
+            </ul>
+            <a href="connexion.html">
+                <p id="connexion">Se connecter</p>
+            </a>
+        </nav>
+
+        <main>
+            <div id="comments">
+                <form action="mailto:exemple@exemple.com" method="post">
+                    <h2>Commentaires</h2>
+                    <div class="formitem">
+                        <label for="nom">Nom :</label>
+                        <input type="text" name="nom" id="nom">
+                    </div>
+                    <div class="formitem">
+                        <label for="prenom">Prénom :</label>
+                        <input type="text" name="prenom" id="prenom">
+                    </div>
+                    <div class="formitem">
+                        <label for="email">Adresse Courriel :</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="formitem">
+                        <label for="telephone">Téléphone :</label>
+                        <input type="tel" name="telephone" id="telephone">
+                    </div>
+                    <div class="formitem">
+                        <label for="province">Téléphone :</label>
+                        <select name="province" id="province">
+                            <option value="alberta">Alberta</option>
+                            <option value="colombiebrittanique">Colombie-Brittanique</option>
+                            <option value="alberta">Alberta</option>
+                            <option value="alberta">Alberta</option>
+                            <option value="alberta">Alberta</option>
+                            <option value="quebec" selected>Québec</option>
+Manitoba.
+New Brunswick.
+Newfoundland and Labrador.
+Northwest Territories.
+                        </select>
+                    </div>
+                    <div class="formitem">
+                        <label for="datenaissance">Date de naissance :</label>
+                        <input type="date" name="datenaissance" id="datenaissance">
+                    </div>
+                    <div class="formitem">
+                        <label for="datenaissance">Commentaire :</label>
+                        <textarea id="commentaire" name="commentaire">
+                        </textarea>
+                    </div>
+                    <input type="submit" value="Envoyer">
+
+
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <a id="backtotop" href="#page">
+                <p>Haut de page</p>
+            </a>
+            <p id="copyright">Copyright 2023</p>
+            <p id="codecours">420-W11-SF</p>
+            <p id="nomtravail">Travail Pratique 1</p>
+            <p id="nomauteur">Yani Meziani</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
